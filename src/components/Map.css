@@ -1,0 +1,37 @@
+.root {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.root .image {
+	object-fit: cover;
+}
+
+.info {
+	position: absolute;
+	top: 10px;
+	right: 22%;
+	z-index: 20;
+	font-size: var(--font-size-small);
+}
+
+.marker {
+	background-image: url("../assets/guñelve.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.mapboxgl-popup {
+	max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+	text-align: center;
+}
